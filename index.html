@@ -1,0 +1,49 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jinworkshop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body { height: 100%; margin: 0; padding: 0; background: #181818; color: #fff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box;}
+    body { min-height: 100vh; position: relative;}
+    .sidebar { position: fixed; top: 40px; left: 50px; z-index: 100;}
+    .sidebar nav { display: flex; flex-direction: column; gap: 18px; }
+    .sidebar a { color: #fff; text-decoration: none; font-size: 1.2em; font-weight: bold; letter-spacing: 2px; transition: color 0.2s;}
+    .sidebar a.active, .sidebar a:hover { color: #00d2ff;}
+    .center-content { display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 80vh;}
+    .container { display:flex ; flex-wrap: wrap;justify-content: center; }
+    .company-name { font-size: 2.7em; font-weight: 300; letter-spacing: 2.5px; margin-bottom: 10px;}
+    .tagline { font-size: 1.2em; font-weight: 200; color: #aaa; letter-spacing: 1.5px;}
+    .footer { position: fixed; bottom: 30px; left: 50px; color: #bbb; font-size: 0.98em; display: flex; gap: 50px; align-items: center; z-index: 100;}
+    .footer span { display: inline-block; margin-right: 10px;}
+    .footer a { color: #bbb; text-decoration: none; font-weight: normal;}
+    .footer a:hover { color: #00d2ff; text-decoration: underline;}
+    .footer .icon { margin-right: 5px; vertical-align: middle;}
+    @media (max-width: 700px) {.sidebar { left: 10px; top: 14px;}.footer { left: 10px; bottom: 8px; gap: 10px; flex-direction: column; align-items: flex-start;}}
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <nav>
+      <a href="index.html" class="active">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="work.html">WORK</a>
+      <a href="blog.html">BLOG</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </div>
+  <div class="center-content">
+    <div class="logo" class="container d-flex align-items-center h-100"><img src="./Jinworkshop-logo-white px500.png"/></div>
+    <!-- <div class="company-name">Jinworkshop</div>
+    <div class="tagline">Crafting Precision. Empowering Progress.</div> -->
+  </div>
+  <div class="footer">
+    <span><b>John Singh</b> <span style="font-weight:normal;">| Co-founder</span></span>
+    <span><span class="icon">&#127968;</span> 305 West St., New York, NY 12345</span>
+    <span><span class="icon">&#9993;</span> <a href="mailto:info@jinworkshop.com">info@jinworkshop.com</a></span>
+    <span><span class="icon">&#9742;</span> +1 555-012-3456</span>
+  </div>
+</body>
+</html>
+
