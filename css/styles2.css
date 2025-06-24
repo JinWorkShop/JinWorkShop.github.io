@@ -66,3 +66,21 @@
       margin-right: 5px;
       vertical-align: middle;
     }
+    /*  Why Us */
+#why-us{
+  margin-top: -24px;
+}
+.why-us-container{
+  background-color: var(--background);
+  color: white;
+  
+}
+.icon-box{
+  background-color: white;
+  border-color: #00d2ff;
+  color: black;
+  padding: 16px 18px 16px 18px;
+  font-size: 60px;
+  border-radius: 20px;
+}
+/* Why Us */
